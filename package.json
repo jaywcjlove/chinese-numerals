@@ -1,0 +1,57 @@
+{
+  "name": "@wcj/chinese-numerals",
+  "version": "0.0.1",
+  "description": "Chinese Numerals.",
+  "type": "module",
+  "types": "./lib/index.d.ts",
+  "exports": "./lib/index.js",
+  "homepage": "https://jaywcjlove.github.io/chinese-numerals/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/chinese-numerals"
+  },
+  "scripts": {
+    "prepack": "husky install && npm run build",
+    "start": "tsbb watch",
+    "build": "tsbb build",
+    "type-check": "tsc --noEmit",
+    "test": "tsbb test",
+    "coverage": "tsbb test --coverage",
+    "prettier": "prettier --write \"**/*.{js,ts,json}\""
+  },
+  "keywords": [
+    "numerals",
+    "Chinese",
+    "chinese-numerals",
+    "中文",
+    "汉字",
+    "数字大写",
+    "数字小写",
+    "中文数字",
+    "数字"
+  ],
+  "author": "Kenny Wang<wowohoo@qq.com>",
+  "license": "MIT",
+  "files": [
+    "src/index.ts",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,ts,json}": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^3.0.0",
+    "tsbb": "^4.1.14"
+  }
+}
