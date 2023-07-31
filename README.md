@@ -1,6 +1,11 @@
 Chinese Numerals
 ===
 
+[![Build & Deploy](https://github.com/jaywcjlove/chinese-numerals/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/chinese-numerals/actions/workflows/ci.yml)
+[![Open in unpkg](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@wcj/chinese-numerals/file/README.md)
+[![npm version](https://img.shields.io/npm/v/@wcj/chinese-numerals.svg)](https://www.npmjs.com/package/@wcj/chinese-numerals)
+[![Coverage Status](https://jaywcjlove.github.io/chinese-numerals/badges.svg)](https://jaywcjlove.github.io/chinese-numerals/lcov-report/)
+
 Lowercase Chinese numerals
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 100 | 1000 | 10000 | 10<sup>8</sup> | 10<sup>12</sup> | 10<sup>16</sup> | 10<sup>20</sup> | 10<sup>24</sup> | 10<sup>28</sup> | 10<sup>32</sup> | 10<sup>36</sup> | 10<sup>40</sup> | 10<sup>44</sup> | 10<sup>48</sup> |
