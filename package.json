@@ -50,7 +50,7 @@
     "*.{js,ts,json}": "prettier --write"
   },
   "devDependencies": {
-    "husky": "^8.0.3",
+    "husky": "^9.0.0",
     "lint-staged": "^13.2.0",
     "prettier": "^3.0.0",
     "tsbb": "^4.1.14"
